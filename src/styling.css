@@ -1,0 +1,20 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+label{
+    font-weight: bold;
+    font-size:large;
+}
+.can{
+    margin-bottom: 1vw;
+}
+.chote-dabbe{
+    width: 17vw;
+    padding: 1%;
+}
+.filter{
+    border-radius: 23%;
+    border-width: medium;
+}
+
