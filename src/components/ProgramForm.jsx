@@ -140,7 +140,7 @@ const ProgramForm = ({
       })
       
     );
-    const a=JSON.stringify({
+    const a={
       name: NameInput,
       program_type: radioProgram,
       registration_open: radioRegistration,
@@ -154,7 +154,7 @@ const ProgramForm = ({
       selectedPrice,
       selectedDomain,
       checkbox,
-    });
+    };
     setPrograms([...programs, a]);
     try {
       const response = await axios.post("http://127.0.0.1:5000/hero/create", {
